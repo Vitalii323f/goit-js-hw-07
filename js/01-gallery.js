@@ -5,8 +5,6 @@ console.log(galleryItems)
 
 const containerGallery = document.querySelector('.gallery')
 
-const image = document.querySelector('.gallery__image')
-
 // Вешаем слушателя на Div
 
 containerGallery.addEventListener('click', onClickModal)
