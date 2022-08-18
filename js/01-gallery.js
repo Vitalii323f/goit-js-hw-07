@@ -53,7 +53,7 @@ const instance = basicLightbox.create(
 )
 
 // Отлавливаем клик по фото
-
+// Запрещаем открытие картинки в новом окне
 function onClickModal(event) {
   event.preventDefault()
 
